@@ -6,7 +6,7 @@ function stringArray(str) {
   for (var i = 0; i < str.length; i++) {
       tampung.push(str[i].split(""))
   }
-  return tampung
+  return tampung;
 }
 
 console.log(stringArray("aqrst,ukaei,ffooo"));
