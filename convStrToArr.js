@@ -1,7 +1,7 @@
 function convStrToArr(input) {
     let char = input.split(',')
-        //let char = input.split('')
         //console.log(char)
+
     let hasil = []
     for (let r = 0; r < char.length; r++) {
         let row = []
