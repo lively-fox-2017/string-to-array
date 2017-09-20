@@ -4,5 +4,5 @@ function stringToArray(str) {
 			.map(substr => substr.split(''));
 }
 
-console.log(stringToArray('aqrs,ukaei, ffooo'));
+console.log(stringToArray('aqrst,ukaei,ffooo'));
 console.log(stringToArray('qwer,tyui,asdf,ghjk'));
